@@ -27,7 +27,6 @@ body {
 header {
     width: 100%;
     min-height: 105px;
-
     padding: 10px 6%;
 
     display: flex;
@@ -35,7 +34,6 @@ header {
     justify-content: flex-start;
 
     background-color: #000000;
-
     border-bottom: 2px solid #43d7df;
 }
 
@@ -48,7 +46,6 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
-
     flex-shrink: 0;
 }
 
@@ -56,9 +53,7 @@ header {
     width: 110px;
     height: 90px;
 
-    background-image:
-        url("imagem/logo.png");
-
+    background-image: url("imagem/logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,37 +63,29 @@ header {
 
 
 /* ========================================
-   NOME CT OLIMPO
+   NOME
 ======================================== */
 
 .logo-nome {
     display: flex;
     flex-direction: column;
-
     line-height: 1;
 }
 
 .logo-nome span {
     font-family: "Rajdhani", sans-serif;
-
     font-size: 15px;
     font-weight: 600;
-
     letter-spacing: 6px;
-
     color: #43d7df;
-
     margin-bottom: 8px;
 }
 
 .logo-nome strong {
     font-family: "Rajdhani", sans-serif;
-
     font-size: 31px;
     font-weight: 700;
-
     letter-spacing: 4px;
-
     color: #ffffff;
 }
 
@@ -110,23 +97,18 @@ header {
 header nav {
     display: flex;
     align-items: center;
-
     gap: 35px;
-
     margin-left: 70px;
 }
 
 header nav a {
     font-family: "Rajdhani", sans-serif;
-
     font-size: 17px;
     font-weight: 700;
 
     color: #ffffff;
-
     text-decoration: none;
     text-transform: uppercase;
-
     white-space: nowrap;
 
     transition:
@@ -136,7 +118,6 @@ header nav a {
 
 header nav a:hover {
     color: #43d7df;
-
     transform: translateY(-2px);
 }
 
@@ -147,7 +128,6 @@ header nav a:hover {
 
 .banner {
     min-height: 650px;
-
     padding: 50px 20px;
 
     display: flex;
@@ -174,14 +154,12 @@ header nav a:hover {
 
 .banner h1 {
     font-family: "Rajdhani", sans-serif;
-
     font-size: 70px;
     font-weight: 700;
 
     letter-spacing: 6px;
 
     color: #43d7df;
-
     text-transform: uppercase;
 
     margin-bottom: 15px;
@@ -192,7 +170,6 @@ header nav a:hover {
 
 .banner p {
     font-family: "Rajdhani", sans-serif;
-
     font-size: 25px;
     font-weight: 500;
 
@@ -212,13 +189,11 @@ header nav a:hover {
     padding: 16px 30px;
 
     background-color: #43d7df;
-
     color: #000000;
 
     text-decoration: none;
 
     font-family: "Rajdhani", sans-serif;
-
     font-size: 17px;
     font-weight: 700;
 
@@ -232,7 +207,6 @@ header nav a:hover {
 
 .btn-principal:hover {
     transform: translateY(-4px);
-
     background-color: #ffffff;
 
     box-shadow:
@@ -241,7 +215,7 @@ header nav a:hover {
 
 
 /* ========================================
-   TÍTULOS GERAIS
+   TÍTULOS
 ======================================== */
 
 .sobre h2,
@@ -251,14 +225,12 @@ header nav a:hover {
 .diferenciais h2,
 .contato h2 {
     font-family: "Rajdhani", sans-serif;
-
     font-size: 40px;
     font-weight: 700;
 
     color: #43d7df;
 
     letter-spacing: 2px;
-
     text-transform: uppercase;
 }
 
@@ -269,7 +241,6 @@ header nav a:hover {
 
 .sobre {
     padding: 100px 8%;
-
     text-align: center;
 
     background:
@@ -287,13 +258,11 @@ header nav a:hover {
 
 .sobre p {
     max-width: 850px;
-
     margin: 0 auto;
 
     color: #d2d2d2;
 
     font-size: 18px;
-
     line-height: 1.8;
 }
 
@@ -304,9 +273,6 @@ header nav a:hover {
 
 .treinos {
     padding: 100px 7%;
-
-    background-color: #030303;
-
     text-align: center;
 }
 
@@ -314,14 +280,8 @@ header nav a:hover {
     margin-bottom: 50px;
 }
 
-
-/* ========================================
-   CARDS DOS TREINOS
-======================================== */
-
 .cards-treinos {
     max-width: 1200px;
-
     margin: 0 auto;
 
     display: grid;
@@ -332,13 +292,16 @@ header nav a:hover {
     gap: 25px;
 }
 
+
+/* ========================================
+   CARDS
+======================================== */
+
 .card {
     min-height: 320px;
-
     padding: 30px;
 
     position: relative;
-
     overflow: hidden;
 
     display: flex;
@@ -346,11 +309,9 @@ header nav a:hover {
     justify-content: flex-end;
 
     border-radius: 12px;
-
     border: 2px solid #43d7df;
 
     background-color: #000000;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -365,7 +326,6 @@ header nav a:hover {
     content: "";
 
     position: absolute;
-
     inset: 0;
 
     background:
@@ -381,7 +341,6 @@ header nav a:hover {
 .card h3,
 .card p {
     position: relative;
-
     z-index: 2;
 }
 
@@ -402,7 +361,6 @@ header nav a:hover {
     color: #ffffff;
 
     font-size: 16px;
-
     line-height: 1.5;
 }
 
@@ -417,19 +375,17 @@ header nav a:hover {
 
 
 /* ========================================
-   TREINAMENTO FUNCIONAL
+   IMAGENS DOS TREINOS
 ======================================== */
 
 .card-funcional {
     grid-column: 1 / -1;
 
     width: 100%;
-
     height: 330px;
     min-height: 330px;
 
-    background-image:
-        url("imagem/funcional.png");
+    background-image: url("imagem/funcional.png");
 
     background-size: contain;
     background-position: center;
@@ -443,34 +399,16 @@ header nav a:hover {
     text-align: center;
 }
 
-
-/* ========================================
-   HYROX
-======================================== */
-
 .card-hyrox {
-    background-image:
-        url("imagem/hyrox.png");
+    background-image: url("imagem/hyrox.png");
 }
-
-
-/* ========================================
-   TÉCNICA
-======================================== */
 
 .card-tecnica {
-    background-image:
-        url("imagem/tecnica.png");
+    background-image: url("imagem/tecnica.png");
 }
 
-
-/* ========================================
-   COMUNIDADE - CARD DOS TREINOS
-======================================== */
-
 .card-comunidade {
-    background-image:
-        url("imagem/comunidade.png");
+    background-image: url("imagem/comunidade.png");
 }
 
 
@@ -480,9 +418,6 @@ header nav a:hover {
 
 .horarios {
     padding: 100px 7%;
-
-    background-color: #080808;
-
     text-align: center;
 }
 
@@ -492,7 +427,6 @@ header nav a:hover {
 
 .secao-subtitulo {
     max-width: 700px;
-
     margin: 0 auto 50px;
 
     font-family: "Rajdhani", sans-serif;
@@ -502,14 +436,8 @@ header nav a:hover {
     color: #cccccc;
 }
 
-
-/* ========================================
-   QUADROS DE HORÁRIOS
-======================================== */
-
 .horarios-cards {
     max-width: 900px;
-
     margin: 0 auto;
 
     display: grid;
@@ -524,13 +452,11 @@ header nav a:hover {
 
 .horario-card {
     width: 100%;
-
     height: 400px;
 
     background-color: #000000;
 
     border: 2px solid #43d7df;
-
     border-radius: 14px;
 
     background-size: contain;
@@ -546,13 +472,11 @@ header nav a:hover {
 }
 
 .horario-aulas {
-    background-image:
-        url("imagem/hr.png");
+    background-image: url("imagem/hr.png");
 }
 
 .horario-tecnicas {
-    background-image:
-        url("imagem/tecnicadasemana.png");
+    background-image: url("imagem/tecnicadasemana.png");
 }
 
 .horario-card:hover {
@@ -571,15 +495,6 @@ header nav a:hover {
 
 .feedbacks {
     padding: 100px 7%;
-
-    background:
-        radial-gradient(
-            circle at center,
-            rgba(67, 215, 223, 0.08),
-            transparent 45%
-        ),
-        #030303;
-
     text-align: center;
 }
 
@@ -587,14 +502,8 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 
-
-/* ========================================
-   GRID DOS FEEDBACKS
-======================================== */
-
 .cards-feedbacks {
     max-width: 1200px;
-
     margin: 0 auto;
 
     display: grid;
@@ -605,22 +514,14 @@ header nav a:hover {
     gap: 30px;
 }
 
-
-/* ========================================
-   CARDS DOS FEEDBACKS
-======================================== */
-
 .feedback-card {
     width: 100%;
 
     aspect-ratio: 3 / 2;
 
-    min-height: 0;
-
     background-color: #0d0d0d;
 
     border: 2px solid #252525;
-
     border-radius: 14px;
 
     background-size: cover;
@@ -636,23 +537,19 @@ header nav a:hover {
 }
 
 .feedback-1 {
-    background-image:
-        url("imagem/feedback1.png");
+    background-image: url("imagem/feedback1.png");
 }
 
 .feedback-2 {
-    background-image:
-        url("imagem/feedback2.png");
+    background-image: url("imagem/feedback2.png");
 }
 
 .feedback-3 {
-    background-image:
-        url("imagem/feedback3.png");
+    background-image: url("imagem/feedback3.png");
 }
 
 .feedback-4 {
-    background-image:
-        url("imagem/feedback4.png");
+    background-image: url("imagem/feedback4.png");
 }
 
 .feedback-card:hover {
@@ -671,9 +568,6 @@ header nav a:hover {
 
 .diferenciais {
     padding: 100px 7%;
-
-    background-color: #080808;
-
     text-align: center;
 }
 
@@ -683,7 +577,6 @@ header nav a:hover {
 
 .cards-diferenciais {
     max-width: 1100px;
-
     margin: 0 auto;
 
     display: grid;
@@ -700,7 +593,6 @@ header nav a:hover {
     background-color: #0d0d0d;
 
     border: 1px solid #252525;
-
     border-radius: 10px;
 
     transition:
@@ -726,7 +618,6 @@ header nav a:hover {
     color: #cccccc;
 
     font-size: 16px;
-
     line-height: 1.6;
 }
 
@@ -741,15 +632,13 @@ header nav a:hover {
 
 
 /* ========================================
-   MAIS QUE UM BOX / UMA COMUNIDADE
+   FUNDO PADRÃO DOS MÓDULOS
 ======================================== */
 
-.comunidade {
-    min-height: 500px;
-
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-
+.treinos,
+.horarios,
+.feedbacks,
+.diferenciais {
     position: relative;
     overflow: hidden;
 
@@ -770,11 +659,34 @@ header nav a:hover {
 
 
 /* ========================================
-   IMAGEM DA COMUNIDADE
-
-   IMPORTANTE:
-   A IMAGEM É CARREGADA SOMENTE AQUI.
+   MAIS QUE UM BOX
 ======================================== */
+
+.comunidade {
+    min-height: 500px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.2fr 1fr;
+
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 82% 50%,
+            rgba(67, 215, 223, 0.16) 0%,
+            rgba(67, 215, 223, 0.07) 22%,
+            transparent 48%
+        ),
+        linear-gradient(
+            135deg,
+            #020202 0%,
+            #071012 55%,
+            #020202 100%
+        );
+}
 
 .comunidade-imagem {
     min-height: 500px;
@@ -783,16 +695,9 @@ header nav a:hover {
         url("imagem/comunidade2.png");
 
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
 }
-
-
-/* ========================================
-   TEXTO DA COMUNIDADE
-======================================== */
 
 .comunidade-texto {
     padding: 70px;
@@ -806,7 +711,6 @@ header nav a:hover {
 
     text-align: left;
 
-    /* deixa o efeito do fundo aparecer */
     background: transparent;
 }
 
@@ -840,7 +744,6 @@ header nav a:hover {
     color: #cccccc;
 
     font-size: 17px;
-
     line-height: 1.7;
 }
 
@@ -875,14 +778,8 @@ header nav a:hover {
     color: #cccccc;
 
     font-size: 17px;
-
     line-height: 1.6;
 }
-
-
-/* ========================================
-   BOTÕES DE CONTATO
-======================================== */
 
 .contato-links {
     display: flex;
@@ -907,7 +804,6 @@ header nav a:hover {
     color: #000000;
 
     border: 2px solid #43d7df;
-
     border-radius: 6px;
 
     text-decoration: none;
@@ -953,7 +849,7 @@ footer {
     margin: 0 auto 10px;
 
     background-image:
-        url("imagem/logo-ctolimpo.png");
+        url("imagem/logo.png");
 
     background-size: contain;
     background-position: center;
@@ -966,31 +862,17 @@ footer p {
     font-size: 14px;
 }
 
+
 /* ========================================
-   FUNDO PADRÃO DOS MÓDULOS
+   ANIMAÇÃO DE SCROLL
 ======================================== */
 
-.treinos,
-.horarios,
-.feedbacks,
-.diferenciais {
-    position: relative;
-    overflow: hidden;
+/*
+   O JavaScript adiciona .revelar.
+   Depois adiciona .ativo quando o
+   elemento entra na tela.
+*/
 
-    background:
-        radial-gradient(
-            circle at 82% 50%,
-            rgba(67, 215, 223, 0.16) 0%,
-            rgba(67, 215, 223, 0.07) 22%,
-            transparent 48%
-        ),
-        linear-gradient(
-            135deg,
-            #020202 0%,
-            #071012 55%,
-            #020202 100%
-        );
-}
 
 
 /* ========================================
@@ -1025,8 +907,6 @@ footer p {
 ======================================== */
 
 @media (max-width: 700px) {
-
-    /* CABEÇALHO */
 
     header {
         flex-direction: column;
@@ -1094,7 +974,7 @@ footer p {
     }
 
 
-    /* ESPAÇAMENTO DOS MÓDULOS */
+    /* MÓDULOS */
 
     .sobre,
     .treinos,
@@ -1102,9 +982,7 @@ footer p {
     .feedbacks,
     .diferenciais,
     .contato {
-        padding:
-            90px
-            20px;
+        padding: 90px 20px;
     }
 
 
@@ -1177,9 +1055,7 @@ footer p {
     }
 
 
-    /* ========================================
-       MAIS QUE UM BOX NO CELULAR
-    ======================================== */
+    /* COMUNIDADE */
 
     .comunidade {
         display: grid;
@@ -1197,7 +1073,6 @@ footer p {
         background-size: cover;
 
         background-position: center;
-
         background-repeat: no-repeat;
     }
 
