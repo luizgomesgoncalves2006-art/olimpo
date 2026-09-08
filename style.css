@@ -1,0 +1,1249 @@
+/* ========================================
+   RESET
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* ========================================
+   CABEÇALHO
+======================================== */
+
+header {
+    width: 100%;
+    min-height: 105px;
+
+    padding: 10px 6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: #000000;
+
+    border-bottom: 2px solid #43d7df;
+}
+
+
+/* ========================================
+   LOGO
+======================================== */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    flex-shrink: 0;
+}
+
+.logo-img {
+    width: 110px;
+    height: 90px;
+
+    background-image:
+        url("imagem/logo.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    flex-shrink: 0;
+}
+
+
+/* ========================================
+   NOME CT OLIMPO
+======================================== */
+
+.logo-nome {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 1;
+}
+
+.logo-nome span {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    letter-spacing: 6px;
+
+    color: #43d7df;
+
+    margin-bottom: 8px;
+}
+
+.logo-nome strong {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 31px;
+    font-weight: 700;
+
+    letter-spacing: 4px;
+
+    color: #ffffff;
+}
+
+
+/* ========================================
+   MENU
+======================================== */
+
+header nav {
+    display: flex;
+    align-items: center;
+
+    gap: 35px;
+
+    margin-left: 70px;
+}
+
+header nav a {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    color: #ffffff;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+header nav a:hover {
+    color: #43d7df;
+
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   BANNER
+======================================== */
+
+.banner {
+    min-height: 650px;
+
+    padding: 50px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 18, 20, 0.88)
+        ),
+        url("imagem/banner.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-conteudo {
+    max-width: 850px;
+}
+
+.banner h1 {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 70px;
+    font-weight: 700;
+
+    letter-spacing: 6px;
+
+    color: #43d7df;
+
+    text-transform: uppercase;
+
+    margin-bottom: 15px;
+
+    text-shadow:
+        0 0 15px rgba(67, 215, 223, 0.45);
+}
+
+.banner p {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 25px;
+    font-weight: 500;
+
+    color: #ffffff;
+
+    margin-bottom: 35px;
+}
+
+
+/* ========================================
+   BOTÃO PRINCIPAL
+======================================== */
+
+.btn-principal {
+    display: inline-block;
+
+    padding: 16px 30px;
+
+    background-color: #43d7df;
+
+    color: #000000;
+
+    text-decoration: none;
+
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    border-radius: 6px;
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.btn-principal:hover {
+    transform: translateY(-4px);
+
+    background-color: #ffffff;
+
+    box-shadow:
+        0 10px 30px rgba(67, 215, 223, 0.20);
+}
+
+
+/* ========================================
+   TÍTULOS GERAIS
+======================================== */
+
+.sobre h2,
+.treinos h2,
+.horarios h2,
+.feedbacks h2,
+.diferenciais h2,
+.contato h2 {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 40px;
+    font-weight: 700;
+
+    color: #43d7df;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+
+/* ========================================
+   SOBRE
+======================================== */
+
+.sobre {
+    padding: 100px 8%;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at left,
+            rgba(67, 215, 223, 0.10),
+            transparent 40%
+        ),
+        #080808;
+}
+
+.sobre h2 {
+    margin-bottom: 25px;
+}
+
+.sobre p {
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    color: #d2d2d2;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* ========================================
+   TREINOS
+======================================== */
+
+.treinos {
+    padding: 100px 7%;
+
+    background-color: #030303;
+
+    text-align: center;
+}
+
+.treinos h2 {
+    margin-bottom: 50px;
+}
+
+
+/* ========================================
+   CARDS DOS TREINOS
+======================================== */
+
+.cards-treinos {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.card {
+    min-height: 320px;
+
+    padding: 30px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border-radius: 12px;
+
+    border: 2px solid #43d7df;
+
+    background-color: #000000;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.92),
+            rgba(0, 0, 0, 0.10)
+        );
+
+    z-index: 1;
+}
+
+.card h3,
+.card p {
+    position: relative;
+
+    z-index: 2;
+}
+
+.card h3 {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    color: #43d7df;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #ffffff;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    border-color: #ffffff;
+
+    box-shadow:
+        0 12px 30px rgba(67, 215, 223, 0.15);
+}
+
+
+/* ========================================
+   TREINAMENTO FUNCIONAL
+======================================== */
+
+.card-funcional {
+    grid-column: 1 / -1;
+
+    width: 100%;
+
+    height: 330px;
+    min-height: 330px;
+
+    background-image:
+        url("imagem/funcional.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #000000;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* ========================================
+   HYROX
+======================================== */
+
+.card-hyrox {
+    background-image:
+        url("imagem/hyrox.png");
+}
+
+
+/* ========================================
+   TÉCNICA
+======================================== */
+
+.card-tecnica {
+    background-image:
+        url("imagem/tecnica.png");
+}
+
+
+/* ========================================
+   COMUNIDADE - CARD DOS TREINOS
+======================================== */
+
+.card-comunidade {
+    background-image:
+        url("imagem/comunidade.png");
+}
+
+
+/* ========================================
+   HORÁRIOS
+======================================== */
+
+.horarios {
+    padding: 100px 7%;
+
+    background-color: #080808;
+
+    text-align: center;
+}
+
+.horarios h2 {
+    margin-bottom: 10px;
+}
+
+.secao-subtitulo {
+    max-width: 700px;
+
+    margin: 0 auto 50px;
+
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 19px;
+
+    color: #cccccc;
+}
+
+
+/* ========================================
+   QUADROS DE HORÁRIOS
+======================================== */
+
+.horarios-cards {
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 25px;
+
+    align-items: start;
+}
+
+.horario-card {
+    width: 100%;
+
+    height: 400px;
+
+    background-color: #000000;
+
+    border: 2px solid #43d7df;
+
+    border-radius: 14px;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.horario-aulas {
+    background-image:
+        url("imagem/hr.png");
+}
+
+.horario-tecnicas {
+    background-image:
+        url("imagem/tecnicadasemana.png");
+}
+
+.horario-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #ffffff;
+
+    box-shadow:
+        0 12px 30px rgba(67, 215, 223, 0.15);
+}
+
+
+/* ========================================
+   FEEDBACKS
+======================================== */
+
+.feedbacks {
+    padding: 100px 7%;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(67, 215, 223, 0.08),
+            transparent 45%
+        ),
+        #030303;
+
+    text-align: center;
+}
+
+.feedbacks h2 {
+    margin-bottom: 10px;
+}
+
+
+/* ========================================
+   GRID DOS FEEDBACKS
+======================================== */
+
+.cards-feedbacks {
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+
+/* ========================================
+   CARDS DOS FEEDBACKS
+======================================== */
+
+.feedback-card {
+    width: 100%;
+
+    aspect-ratio: 3 / 2;
+
+    min-height: 0;
+
+    background-color: #0d0d0d;
+
+    border: 2px solid #252525;
+
+    border-radius: 14px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.feedback-1 {
+    background-image:
+        url("imagem/feedback1.png");
+}
+
+.feedback-2 {
+    background-image:
+        url("imagem/feedback2.png");
+}
+
+.feedback-3 {
+    background-image:
+        url("imagem/feedback3.png");
+}
+
+.feedback-4 {
+    background-image:
+        url("imagem/feedback4.png");
+}
+
+.feedback-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #43d7df;
+
+    box-shadow:
+        0 10px 30px rgba(67, 215, 223, 0.12);
+}
+
+
+/* ========================================
+   DIFERENCIAIS
+======================================== */
+
+.diferenciais {
+    padding: 100px 7%;
+
+    background-color: #080808;
+
+    text-align: center;
+}
+
+.diferenciais h2 {
+    margin-bottom: 50px;
+}
+
+.cards-diferenciais {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.diferencial {
+    padding: 40px 25px;
+
+    background-color: #0d0d0d;
+
+    border: 1px solid #252525;
+
+    border-radius: 10px;
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.diferencial h3 {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    color: #43d7df;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+}
+
+.diferencial p {
+    color: #cccccc;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+}
+
+.diferencial:hover {
+    transform: translateY(-7px);
+
+    border-color: #43d7df;
+
+    box-shadow:
+        0 10px 30px rgba(67, 215, 223, 0.10);
+}
+
+
+/* ========================================
+   MAIS QUE UM BOX / UMA COMUNIDADE
+======================================== */
+
+.comunidade {
+    min-height: 500px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 82% 50%,
+            rgba(67, 215, 223, 0.16) 0%,
+            rgba(67, 215, 223, 0.07) 22%,
+            transparent 48%
+        ),
+        linear-gradient(
+            135deg,
+            #020202 0%,
+            #071012 55%,
+            #020202 100%
+        );
+}
+
+
+/* ========================================
+   IMAGEM DA COMUNIDADE
+
+   IMPORTANTE:
+   A IMAGEM É CARREGADA SOMENTE AQUI.
+======================================== */
+
+.comunidade-imagem {
+    min-height: 500px;
+
+    background-image:
+        url("imagem/comunidade2.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+}
+
+
+/* ========================================
+   TEXTO DA COMUNIDADE
+======================================== */
+
+.comunidade-texto {
+    padding: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    z-index: 2;
+
+    text-align: left;
+
+    /* deixa o efeito do fundo aparecer */
+    background: transparent;
+}
+
+.comunidade-texto span {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    color: #43d7df;
+
+    margin-bottom: 10px;
+}
+
+.comunidade-texto h2 {
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 42px;
+    font-weight: 700;
+
+    color: #ffffff;
+
+    margin-bottom: 20px;
+}
+
+.comunidade-texto p {
+    max-width: 450px;
+
+    color: #cccccc;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* ========================================
+   CONTATO
+======================================== */
+
+.contato {
+    padding: 110px 7%;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(67, 215, 223, 0.13),
+            transparent 40%
+        ),
+        #050505;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.contato > p {
+    max-width: 650px;
+
+    margin: 0 auto 35px;
+
+    color: #cccccc;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+}
+
+
+/* ========================================
+   BOTÕES DE CONTATO
+======================================== */
+
+.contato-links {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.btn-contato {
+    display: inline-block;
+
+    min-width: 180px;
+
+    padding: 15px 30px;
+
+    background-color: #43d7df;
+
+    color: #000000;
+
+    border: 2px solid #43d7df;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-family: "Rajdhani", sans-serif;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.btn-contato:hover {
+    transform: translateY(-4px);
+
+    background-color: #ffffff;
+
+    border-color: #ffffff;
+}
+
+
+/* ========================================
+   RODAPÉ
+======================================== */
+
+footer {
+    padding: 35px 20px;
+
+    background-color: #000000;
+
+    border-top: 1px solid #1d1d1d;
+
+    text-align: center;
+}
+
+.logo-footer {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 10px;
+
+    background-image:
+        url("imagem/logo-ctolimpo.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer p {
+    color: #777777;
+
+    font-size: 14px;
+}
+
+
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 900px) {
+
+    .cards-treinos {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .card-funcional {
+        grid-column: 1 / -1;
+    }
+
+    .cards-diferenciais {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .comunidade {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ========================================
+   CELULAR
+======================================== */
+
+@media (max-width: 700px) {
+
+    /* CABEÇALHO */
+
+    header {
+        flex-direction: column;
+
+        padding: 15px;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+
+        gap: 6px;
+    }
+
+    .logo-img {
+        width: 80px;
+        height: 75px;
+    }
+
+    .logo-nome span {
+        font-size: 13px;
+    }
+
+    .logo-nome strong {
+        font-size: 26px;
+    }
+
+
+    /* MENU */
+
+    header nav {
+        width: 100%;
+
+        margin-left: 0;
+
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        gap: 22px;
+
+        padding-bottom: 8px;
+    }
+
+    header nav a {
+        flex-shrink: 0;
+
+        font-size: 14px;
+    }
+
+
+    /* BANNER */
+
+    .banner {
+        min-height: 560px;
+
+        padding: 50px 20px;
+    }
+
+    .banner h1 {
+        font-size: 45px;
+    }
+
+    .banner p {
+        font-size: 19px;
+    }
+
+
+    /* ESPAÇAMENTO DOS MÓDULOS */
+
+    .sobre,
+    .treinos,
+    .horarios,
+    .feedbacks,
+    .diferenciais,
+    .contato {
+        padding:
+            90px
+            20px;
+    }
+
+
+    /* TÍTULOS */
+
+    .sobre h2,
+    .treinos h2,
+    .horarios h2,
+    .feedbacks h2,
+    .diferenciais h2,
+    .contato h2 {
+        font-size: 31px;
+    }
+
+
+    /* TREINOS */
+
+    .cards-treinos {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        min-height: 300px;
+    }
+
+    .card-funcional {
+        grid-column: auto;
+
+        height: 240px;
+        min-height: 240px;
+
+        background-size: contain;
+    }
+
+
+    /* HORÁRIOS */
+
+    .horarios-cards {
+        max-width: 480px;
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .horario-card {
+        height: 500px;
+    }
+
+
+    /* FEEDBACKS */
+
+    .cards-feedbacks {
+        max-width: 500px;
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .feedback-card {
+        aspect-ratio: 3 / 2;
+    }
+
+
+    /* DIFERENCIAIS */
+
+    .cards-diferenciais {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* ========================================
+       MAIS QUE UM BOX NO CELULAR
+    ======================================== */
+
+    .comunidade {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        min-height: auto;
+    }
+
+    .comunidade-imagem {
+        width: 100%;
+
+        min-height: 350px;
+
+        background-size: cover;
+
+        background-position: center;
+
+        background-repeat: no-repeat;
+    }
+
+    .comunidade-texto {
+        padding: 70px 25px;
+
+        text-align: center;
+
+        align-items: center;
+    }
+
+    .comunidade-texto h2 {
+        font-size: 34px;
+    }
+
+
+    /* CONTATO */
+
+    .contato-links {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .btn-contato {
+        width: 100%;
+
+        max-width: 320px;
+    }
+
+}
+
+
+/* ========================================
+   CELULAR PEQUENO
+======================================== */
+
+@media (max-width: 400px) {
+
+    .banner h1 {
+        font-size: 38px;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+
+    .sobre h2,
+    .treinos h2,
+    .horarios h2,
+    .feedbacks h2,
+    .diferenciais h2,
+    .contato h2 {
+        font-size: 28px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+    }
+
+    .horario-card {
+        height: 440px;
+    }
+
+    .comunidade-imagem {
+        min-height: 300px;
+    }
+
+    .comunidade-texto h2 {
+        font-size: 30px;
+    }
+
+}
