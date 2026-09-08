@@ -966,7 +966,31 @@ footer p {
     font-size: 14px;
 }
 
+/* ========================================
+   FUNDO PADRÃO DOS MÓDULOS
+======================================== */
 
+.treinos,
+.horarios,
+.feedbacks,
+.diferenciais {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 82% 50%,
+            rgba(67, 215, 223, 0.16) 0%,
+            rgba(67, 215, 223, 0.07) 22%,
+            transparent 48%
+        ),
+        linear-gradient(
+            135deg,
+            #020202 0%,
+            #071012 55%,
+            #020202 100%
+        );
+}
 
 
 /* ========================================
